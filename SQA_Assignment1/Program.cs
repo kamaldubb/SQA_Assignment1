@@ -8,6 +8,8 @@ namespace SQA_Assignment1
         static void Main(string[] args)
         {
 
+
+            
             Console.WriteLine("Enter the length of rectangle:");
             int length = Convert.ToInt32(Console.ReadLine());
             while (length <= 0)

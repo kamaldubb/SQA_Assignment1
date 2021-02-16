@@ -5,7 +5,7 @@ namespace SQA_Assignment1
     {
         private int length;
         private int width;
-
+       
         public Rectangle()
         {
             length = 1;
@@ -15,9 +15,11 @@ namespace SQA_Assignment1
         {
             length = l;
             width = w;
+            
         }
         public int GetLength()
         {
+            
             return length;
         }
         public int SetLength(int len)
